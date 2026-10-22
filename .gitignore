@@ -1,0 +1,37 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# PyInstaller build outputs and executables
+build/
+dist/
+*.spec.bak
+crash.log
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE and Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Audio temp files
+*.tmp
+*.tmp.wav
+
+# AI Model weights (automatically downloaded on first use via GUI)
+models/*.onnx
+!models/.gitkeep
